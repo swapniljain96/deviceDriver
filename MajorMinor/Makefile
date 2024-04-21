@@ -1,3 +1,4 @@
+obj-m+= dynamic_driver.o
 obj-m+= static_driver.o
 
 

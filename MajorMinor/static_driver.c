@@ -8,7 +8,7 @@ dev_t dev = MKDEV(177,0);
 
 static int __init driver_init(void) {
 	printk(KERN_INFO "Kernel Module is Inserted Successfully \n");
-	register_chrdev_region(dev,1,"Swapnil Driver");
+	register_chrdev_region(dev,1,"Static Driver");
 	printk(KERN_INFO "MAJOR : MINOR number of your device is: %d : %d \n",MAJOR(dev),MINOR(dev));
 	return 0;
 }
