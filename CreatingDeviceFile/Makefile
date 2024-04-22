@@ -1,4 +1,5 @@
 obj-m+= manual_driver.o
+obj-m+= automatic_driver.o
 
 
 KDIR=/lib/modules/$(shell uname -r)/build
